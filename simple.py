@@ -26,7 +26,7 @@ pace_types = {
     "Repetition": (1.05, 1.2),
 }
 
-valid_duration = r"^(?:([0-9]{1,2}:[0-9]{2}:[0-9]{2})|([0-9]{1,2}:[0-9]{2}))$"
+valid_duration = r"^(?:(?:\d+:)?[0-5]\d:[0-5]\d)|(?:[0-5]?\d:[0-5]\d)$"
 
 
 def parse_duration(s: str) -> datetime.timedelta:
