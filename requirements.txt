@@ -1,3 +1,5 @@
 jupyter
 scipy
+pandas
+seaborn
 textual
