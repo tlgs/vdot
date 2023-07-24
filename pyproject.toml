@@ -1,0 +1,39 @@
+[project]
+name = "vdot"
+description = "VDOT calculator TUI app"
+readme = "README.md"
+license = "Unlicense"
+authors = [
+  { name = "Tiago Seabra", email = "tlgs@users.noreply.github.com" },
+]
+classifiers = [
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dynamic = ["version"]
+dependencies = [
+  "textual~=0.29.0",
+]
+
+urls = { Homepage = "https://github.com/tlgs/vdot" }
+scripts = { vdot = "vdot:main" }
+
+[project.optional-dependencies]
+dev = [
+  "jupyter",
+  "pandas",
+  "pre-commit",
+  "scipy",
+  "seaborn",
+]
+
+
+[tool.hatch]
+version.path = "vdot.py"
+build.targets.wheel.only-include = ["vdot.py"]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
