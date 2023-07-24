@@ -29,6 +29,8 @@ from textual.validation import Regex
 from textual.widget import Widget
 from textual.widgets import Input, Select, Static
 
+__version__ = "0.1.0-alpha"
+
 magic = """\
 H4sIAGHeumQC/52dW48tx3me7/UrNnxlA3PRda6CrmiFcIhIZEBtxfCVENgMIgROgkDQ78/7vFW9Zs2QZnUvA9ub
 W7PmWd1V3+Gtr07/+O0/fff9l68/fvP9H7/53dfvfvj+t7/53Y/ffvP12y9fv/nH33/75W//9n/++uXvf/Ply9++
@@ -409,6 +411,12 @@ class CalculatorApp(App):
         self.query_one("ResultsPanel").vdot_value = message.vdot_value
 
 
-if __name__ == "__main__":
+def main() -> int:
     app = CalculatorApp()
     app.run()
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
