@@ -1,8 +1,21 @@
 # vdot
 
-Because I got nerdsniped by the intersection of running and math.
+vdot is a running training pace calculator TUI app:
 
-![demo picture](misc/demo.png)
+  - nerdsniped by the intersection of running and math
+  - excuse to play around with [Textual](https://textual.textualize.io/)
+
+![Demo application screenshot](misc/demo.png)
+
+## Installation and Usage
+
+Installation is possible through pip (VCS support):
+
+```
+pip install git+https://github.com/tlgs/vdot.git@0.1.0
+```
+
+Run with `vdot`.
 
 ## What's this?
 

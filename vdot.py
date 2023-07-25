@@ -29,7 +29,7 @@ from textual.validation import Regex
 from textual.widget import Widget
 from textual.widgets import Input, Select, Static
 
-__version__ = "0.1.0-alpha"
+__version__ = "0.1.0"
 
 magic = """\
 H4sIAGHeumQC/52dW48tx3me7/UrNnxlA3PRda6CrmiFcIhIZEBtxfCVENgMIgROgkDQ78/7vFW9Zs2QZnUvA9ub
