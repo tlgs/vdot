@@ -1,22 +1,18 @@
 [project]
 name = "vdot"
+version = "0.1.0"
 description = "VDOT calculator TUI app"
-readme = "README.md"
-license = "Unlicense"
 authors = [
   { name = "Tiago Seabra", email = "tlgs@users.noreply.github.com" },
 ]
 classifiers = [
-  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "License :: OSI Approved :: Zero-Clause BSD (0BSD)",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
 ]
-dynamic = ["version"]
 dependencies = [
   "textual~=0.29.0",
 ]
-
-urls = { Homepage = "https://github.com/tlgs/vdot" }
 scripts = { vdot = "vdot:main" }
 
 [project.optional-dependencies]
