@@ -7,16 +7,6 @@ vdot is a running training pace calculator TUI app:
 
 ![Demo application screenshot](misc/demo.png)
 
-## Installation and Usage
-
-Installation is possible through pip (VCS support):
-
-```
-pip install git+https://github.com/tlgs/vdot.git@0.1.0
-```
-
-Run with `vdot`.
-
 ## What's this?
 
 VDOT is a _system_ devised by Jack Daniels and Jimmy Gilbert
@@ -37,6 +27,16 @@ If you're looking for the official thing, you should take a look at
 the [official calculator](https://vdoto2.com/).
 However, if you are going down the rabbit hole of Running × Math,
 I invite you to take a look at the [Jupyter notebooks](notebooks/) in this project.
+
+## Installation and Usage
+
+Installation is possible through pip (VCS support):
+
+```
+pip install git+https://github.com/tlgs/vdot.git@0.1.0
+```
+
+Run with `vdot`.
 
 ## Development
 
