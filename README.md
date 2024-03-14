@@ -28,16 +28,6 @@ the [official calculator](https://vdoto2.com/).
 However, if you are going down the rabbit hole of Running × Math,
 I invite you to take a look at the [Jupyter notebooks](notebooks/) in this project.
 
-## Installation and Usage
-
-Installation is possible through pip (VCS support):
-
-```
-pip install git+https://github.com/tlgs/vdot.git@0.1.0
-```
-
-Run with `vdot`.
-
 ## Development
 
 - install and setup project with `pip install -e .[dev]` and `pre-commit install`
